@@ -1,5 +1,5 @@
 FROM golang:bullseye as base
-WORKDIR /repo
+WORKDIR /app
 USER root
 
 RUN apt-get -f -y install --reinstall ca-certificates \
